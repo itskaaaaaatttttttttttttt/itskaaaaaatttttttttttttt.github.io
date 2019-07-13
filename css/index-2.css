@@ -1,0 +1,34 @@
+h1 {
+  color: #87B7E1; font-size:64px;
+  font-family: 'Knewave', cursive;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
+  }
+p {
+  color: lavender;}
+body{
+  background: url('../images/better wooper background.png') no-repeat fixed 30%;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border-radius: 50%;
+  height: 500px;
+  margin: auto;
+}
+
+body,html, .sidenav{
+ cursor:url(https://66.media.tumblr.com/973355afeaf8c3d9e183df2f7112c9c9/tumblr_inline_ojz50tLLIO1qdzcxe_75sq.png), pointer;
+}
+
+@keyframes conrad {
+  0%{transform: translate(-200px)}
+  50%{transform: translate(400px)}
+  100%{transform: translate(-200px)}
+
+}
+#kwaiiwooper{animation-name: conrad;
+  animation-duration:4s;
+  animation-iteration-count: infinite
+ 
